@@ -1,0 +1,225 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 40px;
+    color: rgb(37 79 76);
+}
+
+.subtitle {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgb(37 79 76);
+}
+
+
+.select {
+    padding: 15px 25px;
+    width: 49%;
+    font-size: 17px;
+}
+
+.payment {
+    border: 1px solid grey;
+    padding: 15px 25px;
+    width: 40%;
+    font-size: 17px;
+}
+
+.payment_inner {
+    display: flex;
+    gap: 20px;
+}
+
+.payment_inner label {
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.form {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    padding: 15px 25px;
+    font-size: 17px;
+    flex-basis: 48%;
+}
+
+.title_wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.goods_desc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.goods_desc * {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.goods_wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.goods {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #828282;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.goods p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #1D3130;
+}
+
+.product {
+    width: 500px;
+}
+
+.amount {
+    width: 200px;
+}
+
+.price {
+    width: 200px;
+}
+
+.price_all {
+    width: 200px;
+}
+
+.product_item {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    width: 500px;
+}
+
+.product_item p {
+    line-height: 1.5em;
+}
+
+.amount_item {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.price_item {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.product_item img {
+    width: 70px;
+}
+
+.price_all_item {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 15px 25px;
+    font-size: 17px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.aside {
+    background: #EBF1FA;
+    border-radius: 10px;
+    padding: 30px 20px;
+    padding-bottom: 100px;
+    max-height: 500px;
+    width: 27%;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.aside div {
+    margin-bottom: 10px;
+}
+
+.aside input {
+    padding: 15px 25px;
+    font-size: 17px;
+    width: 100%;
+}
+
+.final_price {
+    font-size: 25px;
+}
+
+.to_pay {
+    font-size: 24px;
+    color: #254F4C;
+}
+
+.final {
+    margin-top: 25px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background: #5E8BCE;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: rgb(68, 68, 209);
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FCFCFC;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid rgb(128 128 128);
+}
+
+select {
+    border-radius: 10px;
+    border: 1px solid rgb(128 128 128);
+}
+
+.active_nav {
+    color: red;
+}

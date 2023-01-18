@@ -1,0 +1,180 @@
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.admin {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.admin * {
+    color: #254F4C;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.menu_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu_ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #1D3130;
+    height: 32px;
+    padding: 10px 10px;
+    transition: all 0.1s;
+    border: 1px solid #FF583E;
+    border-radius: 5px;
+}
+
+.menu_ul li:hover a {
+    background-color: #FF583E;
+    color: white;
+}
+
+.menu_nav {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 97%;
+    transform: translateX(-100%);
+}
+
+.all_products_wrapper {
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    margin-bottom: 30px;
+    border: 1px solid #828282;
+}
+
+.goods {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    border-bottom: 1px solid #828282;
+}
+
+.goods:last-child {
+    border: none;
+}
+
+.goods img {
+    width: 80px;
+}
+
+.title_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.goods_desc {
+    padding-left: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 30px;
+}
+
+.goods_desc * {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    color: #828282;
+}
+
+.product_item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+}
+
+.food_name {
+    width: 150px;
+}
+
+.desc {
+    max-width: 500px;
+    width: 500px;
+}
+
+.price_item {
+    width: 100px;
+}
+
+.product {
+    width: 300px;
+}
+
+.amount {
+    width: 500px;
+}
+
+.price {
+    width: 100px;
+}
+
+.goods .change {
+    display: block;
+    width: 20px;
+}
+
+.goods .remove {
+    display: block;
+    width: 20px;
+}
+
+.goods .change:hover {
+    cursor: pointer;
+    transform: translateY(4px);
+}
+
+.goods .remove:hover {
+    cursor: pointer;
+    transform: translateY(4px);
+}
+
+.btn_block {
+    margin: 0 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background: #254F4C;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    transition: 0.5s;
+    width: 250px;
+}
+
+.btn:hover {
+    background-color: #447976;
+    cursor: pointer;
+}
